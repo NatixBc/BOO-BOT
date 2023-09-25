@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「*𝕾𝖔𝖒𝖔𝖘 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕾𝖔𝖒𝖔𝖘 𝕷𝖊𝖌𝖎ó𝖓*」\n│➯(♦️)*Hola estás en el menu-Anime elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「*𝕾𝖔𝖒𝖔𝖘 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕾𝖔𝖒𝖔𝖘 𝕷𝖊𝖌𝖎ó𝖓*」\n│➯(♦️)*Hello you are in the menu-Anime choose an option and ask for an image*\n╰───────────────╯`)
+await m.reply(`╭「*CR-BOT*」\n│➯(♦️)*Hola estás en el menu-Anime elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「*CR-BOT*」\n│➯(♦️)*Hello you are in the menu-Anime choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen5
 let vn = './Au-dios/Konede.mp3'
 let img = await(await fetch('https://imgur.com/a/hXvC3ST')).buffer()
@@ -18,10 +18,10 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「*𝕾𝖔𝖒𝖔𝖘 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕾𝖔𝖒𝖔𝖘 𝕷𝖊𝖌𝖎ó𝖓*」
+let str = `╭「*CR-BOT*」
 │➯*HOLA:*➟${taguser}
-│➯*CREADOR*: Mau 
-│➯*𝕾𝖔𝖒𝖔𝖘 𝕱𝖆𝖒𝖎𝖑𝖎𝖆 𝕾𝖔𝖒𝖔𝖘 𝕷𝖊𝖌𝖎ó𝖓*
+│➯*CREADOR*: CR
+│➯*CR-BOT*
 │➯*FECHA:*➟${date}
 │➯*TIEMPO ACTIVO:*➟${uptime}
 │➯*USUARIOS:*➟${rtotalreg}
