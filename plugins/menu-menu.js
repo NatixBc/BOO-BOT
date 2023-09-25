@@ -22,8 +22,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let str = `╭「*CR-BOT*」
 │➯ *HOLA:*➟${taguser}
 │➯ *CREADOR:* CR
-│➯ *INFO:* Wa.me/+593962753376
-│➯ *INFO:* Wa.me/+593995215569
+│➯ *INFO:* Wa.me/+50670891280
 │➯ *CR-BOT*
 │➯ *FECHA:*➟${date}
 │➯ *TIEMPO ACTIVO:*➟${uptime}
