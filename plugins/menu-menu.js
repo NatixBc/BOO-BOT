@@ -22,7 +22,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let str = `╭「𝙈𝙞𝙢𝙞 𝘽𝙖𝙗𝙚」
 │➯ *HOLA:*➟${taguser}
 │➯ *CREADOR:* Babbi
-│➯ *INFO:* Wa.me/+50670891280
+│➯ *INFO:* Wa.me/+1(385)695-8729
 │➯ *𝙈𝙞𝙢𝙞 𝘽𝙖𝙗𝙚*
 │➯ *FECHA:*➟${date}
 │➯ *TIEMPO ACTIVO:*➟${uptime}
