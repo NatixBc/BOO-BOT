@@ -21,7 +21,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭「𝙈𝙞𝙢𝙞 𝘽𝙖𝙗𝙚」
 │➯*HOLA:*➟${taguser}
 │➯*MI CREADOR:* Babbi
-│➯*NUMERO:*➟ Wa.me/1(385)695-8729
+│➯*NUMERO:*➟ Wa.me/+1(385)695-8729
 │➯*FECHA:*➟${date}
 │➯*TIEMPO ACTIVO:*➟${uptime}
 │➯*USUARIOS*➟${rtotalreg}
