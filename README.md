@@ -16,11 +16,11 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/natixbc/CR-BOT
+git clone https://github.com/natixbc/MimiLover
 ```
 
 ```bash
-cd CR-BOT
+cd MimiLover
 ```
 
 ```bash
@@ -48,14 +48,14 @@ npm start
 ### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE ✔️`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd CR-BOT
+> cd MimiLover
 > npm start
 ```
 
 ### `—◉ 👽 OBTENER OTRO CODIGO QR 👽`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd CR-BOT
+> cd MimiLover
 > rm -rf session-activa
 > npm start
 ```
