@@ -15,7 +15,7 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
   }[(args[0] || '')]
   if (isClose === undefined) {
 	  let caption = `------------------------------------------------------------------------------------------------------------
-    𝐁𝐎𝐓𝐂𝐈𝐓𝐎 𝐈𝐙𝐍
+BC 
 *[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
 ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ 
 ${usedPrefix + command} open 1*
@@ -25,7 +25,7 @@ ${usedPrefix + command} close 1*
 
 ------------------------------------------------------------------------------------------------------------
 
-NATIxBC
+BC
 *[❗]WRONG FORMAT!!*
 *✨EXAMPLE✨*
 ${usedPrefix + command} open 1*
