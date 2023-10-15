@@ -56,7 +56,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd BC
-> rm -rf session-activa
+> rm -rf Session-activa
 > npm start
 ```
 
