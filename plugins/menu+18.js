@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「*BC*」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「*BC*」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
+await m.reply(`╭「*BOO BOT*」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「*BOO BOT*」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen4
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
 let d = new Date(new Date + 3600000)
@@ -17,7 +17,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「*BC*」
+let str = `╭「*BOO BOT*」
 │➯*HOLA:*➟${taguser}
 │➯*CREADOR:*: Bryxn
 │➯*BC*
@@ -26,7 +26,7 @@ let str = `╭「*BC*」
 │➯*USUARIOS*➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「*BC*」
+╭「*BOO BOT*」
 │➯*Menu*+18*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
