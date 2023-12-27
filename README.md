@@ -16,11 +16,11 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/natixbc/BC
+git clone https://github.com/natixbc/BOOBOT
 ```
 
 ```bash
-cd BC
+cd BOOBOT
 ```
 
 ```bash
@@ -48,14 +48,14 @@ npm start
 ### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE ✔️`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd BC
+> cd BOOBOT
 > npm start
 ```
 
 ### `—◉ 👽 OBTENER OTRO CODIGO QR 👽`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd BC
+> cd BOOBOT
 > rm -rf Session-activa
 > npm start
 ```
