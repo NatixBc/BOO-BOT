@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「*BC*」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「*BC*」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
+await m.reply(`╭「*BOO BOT*」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「*BOO BOT*」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen3
 let vn = './Audios/menu.mp3'
 let img = await(await fetch('https://imgur.com/a/hXvC3ST')).buffer()
@@ -18,10 +18,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「*BC*」
+let str = `╭「*BOO BOT*」
 │➯ *HOLA:*➟${taguser}
 │➯ *OWNER:OFC*➟Bryxn 
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/+593962753376
+│➯ *𝙸𝙽𝙵𝙾: Wa.me/+593 96 275 3376
+│➯ *INFO:* Wa.me/+503 7052 4054
 │➯ *FECHA:*➟${date}
 │➯ *TIEMPO ACTIVO:*➟${uptime}
 │➯ *USUARIOS:*➟${rtotalreg}
